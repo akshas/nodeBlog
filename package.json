@@ -1,0 +1,24 @@
+{
+  "name": "nodeblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=3001 node index.js",
+    "dev": "cross-env PORT=3001 nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7"
+
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "cross-env": "^6.0.3",
+    "ejs": "^2.7.1",
+    "nodemon": "^1.19.4",
+    "npm": "^6.12.1"
+  }
+}
